@@ -12,7 +12,7 @@ In this work, we take advantage of the particular structure of VAEs to refine Wa
 
 We calculated the MCDs of the _natural_ and _converted_ features (Dist. 1), _VAE-reconstructed_ and _natural_ features (Dist. 2), and _VAE-reconstructed_ and _converted_ features (Dist. 3). We observe that Dist. 2 is rather large, showing that the natural features are somehow distorted through the reconstruction process of VAE. We further observe that Dist. 3 is significantly smaller than Dist. 1, demonstrating that the _VAE-reconstructed_ features are actually more similar to the _converted_ features than the _natural_ features in the Mel-cepstral domain.
 
-![distance](/imgs/distance.png)
+![distance](/imgs/distance_small.png)
 
 ## Subjective Evaluation Results
 
